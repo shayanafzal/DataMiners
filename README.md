@@ -10,5 +10,7 @@ A mockup database "DataMiners" was created in PG Admin as seen in the below imag
 
 ## Files used for creating database
 
+We did not use pandas for deleting the unwanted columns for this segment deliverable. But we would be using pandas to delete the unwanted columns for the final project code.
+
 1) ![Sales_Data - Only the columns we need](https://github.com/shayanafzal/DataMiners/blob/yashodhan/Sales_Data%20-%20Only%20the%20columns%20we%20need.csv)
 
