@@ -32,7 +32,7 @@ PROT – Protein
 * Flavours – This is product subcategory
 * Product ID
 * Product Description
-* UOM – United of Measurement, that can either be a case or a carton ***********
+* UOM – Unit of Measurement, that can either be a case or a carton ***********
 * Pack ****************
 * Real_QTY *******************
 * CAD_value – Sales price on the order
