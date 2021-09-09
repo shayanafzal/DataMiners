@@ -1,6 +1,43 @@
-# DataMiners
+=======
+# Overview
+## Introduction
+This analysis is being done for business in the snack bar category. For confidentiality reasons the business would be referred to as ‘Snack Brands’ from here onwards. Snack Brands is involved in the manufacturing of chocolate bars. 
+## Problem & Proposed Solution.
+Snack Brands manufactures chocolate bars for which the procurement time is 8 weeks. Hence, we need to accurately forecast the sales 8 weeks into the future in order to procure the right amount of ingredients and manufacture the snack bars that we can sell after they 8 weeks procurement process. 
+To further add value, the model will be used to predict sales 6 month into the future. This will allow Snack Brands to order the ingredients early and obtain better rates.
+# Data
+Please click here for the raw data set.
+## Cleaning the Data Set
+The original data set that has been obtained contains data in a number of columns, not all of which are relevant. From the original data set we will only be keeping the columns listed below. A description of the category has also been provided below:
 
-Role Circle -- Database design and mockup
+* Year
+* Month 
+* InvDate - Dales Invoice Number
+* InvNumbers – Invoice Numbe
+* Market – The sales are broken down into three different regions	
+CAN - Canada
+US – United States
+INTL – International
+* InvCustomer – This the customer code
+* CompanyName – This is the customer name
+* ItemClass – Items are classified into two categories
+ORG – manufactured using organic ingredients
+CONV – manufactured using conventional ingredients
+* SubCategory – The products are devided into the following subcategories
+CHOC – Chocolate
+F&N - Fruits and Nuts
+GRAN - Granola 
+LSUG – Low Sugar
+PROT – Protein
+* Flavours – This is product subcategory
+* Product ID
+* Product Description
+* UOM – United of Measurement, that can either be a case or a carton ***********
+* Pack ****************
+* Real_QTY *******************
+* CAD_value – Sales price on the order
+# Description of Communication Protocols
+The team will be using a private group on Slack as a primary communications protocol. We have set up multiple recurring meeting though out the week to meet up as a team and get the work done. Phone will be used to communicate in case there is an argent need.
 
 ## Creation of a database
 
