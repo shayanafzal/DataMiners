@@ -9,5 +9,5 @@ After cleaning and analyzing our data, we will use Amazon Web Services (AWS) RDS
 We will be using the method of __ for our Machine Learning Model. 
 
 ## Dashboard
-We will use Javascript & HTML for the dashboard to view and analyze the difference in our results.  
+We will use Javascript & HTML for the dashboard to view and analyze the difference in our snack bar results.
 
