@@ -8,5 +8,5 @@ A mockup database "DataMiners" was created in PG Admin as seen in the below imag
 
 ## Files used for creating database
 
-1) ![Main CSV File](https://github.com/shayanafzal/DataMiners/blob/yashodhan/Sales_Data%20-%20Only%20the%20columns%20we%20need.csv)
+1) ![Sales_Data - Only the columns we need](https://github.com/shayanafzal/DataMiners/blob/yashodhan/Sales_Data%20-%20Only%20the%20columns%20we%20need.csv)
 
