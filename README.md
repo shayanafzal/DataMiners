@@ -1,4 +1,5 @@
 =======
+=======
 # Overview
 ## Introduction
 This analysis is being done for business in the snack bar category. For confidentiality reasons the business would be referred to as ‘Snack Brands’ from here onwards. Snack Brands is involved in the manufacturing of chocolate bars. 
@@ -50,4 +51,18 @@ A mockup database "DataMiners" was created in PG Admin as seen in the below imag
 We did not use pandas for deleting the unwanted columns for this segment deliverable. But we would be using pandas to delete the unwanted columns for the final project code.
 
 1) ![Sales_Data - Only the columns we need](https://github.com/shayanafzal/DataMiners/blob/yashodhan/Sales_Data%20-%20Only%20the%20columns%20we%20need.csv)
+
+# Technologies Used
+## Data Cleaning and Analysis
+Our project will use Pandas and Python for data cleaning, manipulation, integration and analysis. 
+
+## Database Storage
+After cleaning and analyzing our data, we will use PostgreSQL server. We will then use a Postgres query to join the data and further connect it to our Machine Learning Model.
+
+## Machine Learning
+We will be using the method of logistic regression and Prophet for our Machine Learning Model. Also using the seaborn library. 
+
+## Dashboard
+We will use Javascript & HTML for the dashboard to view and analyze the difference in our snack bar results.
+
 
