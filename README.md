@@ -12,4 +12,5 @@ We will be using the method of linear regression and Prophet for our Machine Lea
 We will use Python & HTML for the dashboard to view and analyze the difference in our snack bar results.
 
 [Dashboard Blueprint](https://docs.google.com/presentation/d/1nNB0tEEfZtC7Wzha4ysZ-Lvb9UOqLQpGOTRMRIGp7wk/edit#slide=id.gecfb9a4986_0_85)
+
 [Presentation](https://docs.google.com/presentation/d/1LgEP1iabjOZd_n9z482B2Ra9EhcuanqxWKVCodDJ5jM/edit#slide=id.gebf57a60df_0_0)
