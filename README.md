@@ -8,8 +8,7 @@
 This analysis is being done for business in the snack bar category. For confidentiality reasons the business would be referred to as ‘Snack Brands’ from here onwards. Snack Brands is involved in the manufacturing of chocolate bars. 
 
 ## Problem & Proposed Solution.
-Snack Brands manufactures chocolate bars for which the procurement time is 8 weeks. Hence, we need to accurately forecast the sales 8 weeks into the future in order to procure the right amount of ingredients and manufacture the snack bars that we can sell after they 8 weeks procurement process. 
-To further add value, the model will be used to predict sales 6 month into the future. This will allow Snack Brands to order the ingredients early and obtain better rates.
+Snack Brands manufactures chocolate bars for which we have to respect the procurement and production lead times and the working capital management aspect. Hence, we need to accurately forecast the sales into the future in order to identify the potential cash outflow based on the agreed payment terms with the vendors and also manage inventory with respect to the inventory turnover.To further add value, the model will be used to predict sales 24 months into the future. This will allow Snack Brands to order the ingredients early, obtain better ingredient prices and manage inventory levels.
 
 # Description of Communication Protocols
 
@@ -84,11 +83,8 @@ Prophet is a procedure that can be used to forecast time series data. This datab
 ### Arima
 Arima is another model that has been chosen to create a sales forecast. The results obtained will be analyzed to determine if this is a good model to use for the available data set. 
 
-### Current Analysis
-The 'seaborn' statistical data visualization library has been used to plot the data in order to identify trends. This gives an a high-level overview of the data that we are working with. This helps when analyzing the forecast results that will be obtained using 'Prophet' and 'Arima'
-
 ### Further Analysis
-The aforementioned models are being used to forecast the sales. The results given by these methods would be further analyzed and the raw data may be further narrowed down to exclude sales data from the years 2020 and 2021. The current analysis shows that the sales were extremely low in the years 2020 and 2021 due to the affect of the Covid-19 Pandemic. Hence, it may better to exclude this data from the model. Further analysis will be done to see how the data from the pandemic time period affects the forecast.
+The aforementioned models are being used to forecast the sales. The results given by these methods would be further analyzed and the raw data may be further narrowed down to exclude sales data from the years 2020 and 2021. The current analysis shows that the sales were extremely low in the years 2020 and 2021 due to the effect of the Covid-19 Pandemic. Hence, it may better to exclude this data from the model. Further analysis will be done to see how the data from the pandemic time period affects the forecast.
 
 
 
