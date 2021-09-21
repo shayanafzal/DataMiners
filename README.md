@@ -59,7 +59,7 @@ The original data set that has been obtained contains data in a number of column
 
 # Coding 
 
-The coding can be accessed [here](https://github.com/shayanafzal/DataMiners/blob/main/Sales%20Forecasting%20using%20ML%20-%20Prophet%20and%20Arima.ipynb).
+The coding can be accessed [here](https://github.com/shayanafzal/DataMiners/blob/65c90f04cfc6d1c089585cc2a698855caca71611/Code.ipynb).
 
 ## Database
 
