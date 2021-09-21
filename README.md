@@ -5,7 +5,7 @@
 [Dashboard Blueprint](https://docs.google.com/presentation/d/1nNB0tEEfZtC7Wzha4ysZ-Lvb9UOqLQpGOTRMRIGp7wk/edit#slide=id.gecfb9a4986_0_85)
 
 ## Introduction
-This analysis is being done for business in the snack bar category. For confidentiality reasons the business would be referred to as ‘Snack Brands’ from here onwards. Snack Brands is involved in the manufacturing of chocolate bars. 
+This analysis is being done for business in the snack bar category. For confidentiality reasons the business would be referred to as ‘Snack Brands’ from here onwards. Snack Brands manufactures a varity of snack bars. 
 
 ## Problem & Proposed Solution.
 Snack Brands manufactures chocolate bars for which we have to respect the procurement and production lead times and the working capital management aspect. Hence, we need to accurately forecast the sales into the future in order to identify the potential cash outflow based on the agreed payment terms with the vendors and also manage inventory with respect to the inventory turnover.To further add value, the model will be used to predict sales 24 months into the future. This will allow Snack Brands to order the ingredients early, obtain better ingredient prices and manage inventory levels.
