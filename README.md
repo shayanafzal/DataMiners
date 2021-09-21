@@ -71,7 +71,7 @@ A mockup database "DataMiners" was created in PG Admin as seen in the below imag
 
 ### Files used for creating database
 
-The final version of analysis will utilize pandas to deleting the unwanted columns. For segment 1 deliverable the unwanted columns have been deleted manually in excel. The final file containing only the columns necessary for this analysis can be accessed [here](https://github.com/shayanafzal/DataMiners/blob/main/Sales_Data%20-%20Only%20the%20columns%20we%20need.csv).
+The final version of analysis will utilize pandas to deleting the unwanted columns. For segment 1 deliverable the unwanted columns have been deleted manually in excel. The final file containing only the columns necessary for this analysis can be accessed [here](https://github.com/shayanafzal/DataMiners/blob/bf6a8c03ea1d01bb2228b3789cd478d071deb9c4/Resources/Sales_Data_Raw.csv).
 
 ## Machine Learning Components
 
