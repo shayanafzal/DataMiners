@@ -5,18 +5,18 @@
 [Dashboard Blueprint](https://docs.google.com/presentation/d/1nNB0tEEfZtC7Wzha4ysZ-Lvb9UOqLQpGOTRMRIGp7wk/edit#slide=id.gecfb9a4986_0_85)
 
 ## Introduction
-This analysis is being done for business in the snack bar category. For confidentiality reasons the business would be referred to as ‘Snack Brands’ from here onwards. Snack Brands manufactures a variety of snack bars. 
+Accurate sales forcasting and procuring inputs to meet the sales demand, is not a new or unique problem within the business community. This project and the resulting analysis havs been conducted in response to a given business within the snack bar industry. For confidentiality purposes, the business will be referred to as ‘Snack Brands’ from here onwards. Snack Brands manufactures a varity of snack bars and has distribution throughout global makets. 
 
 ## Problem & Proposed Solution.
-Snack Brands manufactures chocolate bars for which we have to respect the procurement and production lead times and the working capital management aspect. Hence, we need to accurately forecast the sales into the future in order to identify the potential cash outflow based on the agreed payment terms with the vendors and also manage inventory with respect to the inventory turnover.To further add value, the model will be used to predict sales 24 months into the future. This will allow Snack Brands to order the ingredients early, obtain better ingredient prices and manage inventory levels.
+Snack Brands manufactures snack bars, and as a result the company needs to actively manage its supply chain networks. Specifically, procurement and production lead times, along with working capital levels need to be anticipated and planned for in order to optimize financial performance. Hence, we need to accurately forecast the sales in order to identify large cash outlays in response to sourcing inventory, managing inventory turnover as well as waste. To further add value, the project's model will be used to predict sales 24 months into the future, allowing Snack Brands to order the ingredients in a timely manner, source optimal ingredient pricing and manage inventory levels within the company's available financial resources.
 
 # Description of Communication Protocols
 
-The following communication tools will be used when working on this project
+The following communication tools were used when working on this project:
 
-1. A private group on Slack will be used as a primary communications protocol. 
-2. Recurring Zoom calls have been setup to collaborate and communicate
-3. Phone will be used to communicate in case there is an urgent need.
+1. A private Slack group was used as the primary communications protocol. 
+2. Recurring Zoom calls were setup to enable collaboration and communication between group members.
+3. Phones will be utilized in case there is an urgent need to contact members.
 
 
 # Data
@@ -26,17 +26,18 @@ The following communication tools will be used when working on this project
 The raw data used for this analysis can be accessed [here](https://github.com/shayanafzal/DataMiners/blob/a17ea5362ba60a61753ce50b6ce491bb05168e33/Sales_Data_Raw.csv).
 
 ## Cleaning the Data Set
-The original data set that has been obtained contains data in a number of columns, not all of which are relevant. From the original data set we will only be keeping the columns listed below. A description of the category has also been provided below:
+The original data set contained data in a number of columns, not all of which were relevant. From the original data set we only kept the columns listed below. A description of the category has also been provided.
 
+#### Data Set Columns
 * Year
 * Month 
-* InvDate - Sales Invoice Number
-* InvNumber – Invoice Numbe
+* InvDate - Dales Invoice Number
+* InvNumbers – Invoice Numbe
 * Market – The sales are broken down into three different regions	
 	* CAN - Canada
 	* US – United States
 	* NTL – International
-* InvCustomer – This the customer code
+* InvCustomer – This is the customer code
 * CompanyName – This is the customer name
 * ItemClass – Items are classified into two categories
 	* ORG – manufactured using organic ingredients
@@ -47,13 +48,13 @@ The original data set that has been obtained contains data in a number of column
 	* GRAN - Granola 
 	* LSUG – Low Sugar
 	* PROT – Protein
-* Flavours – This is product subcategory
+* Flavours – This is a product subcategory
 * Product ID
 * Product Description
-* UOM – Unit of Measurement, that can either be pack or a carton as indicated in the column.
+* UOM – Unit of Measurement (either be pack or a carton as indicated in the column)
 * Pack -
-* Real_QTY - this indicates the total number of snack bars on the sales order regardless of wheather they were sold as a case or a caron
-* CAD_value – Sales price on the order
+* Real_QTY - This indicates the total number of snack bars on the sales order regardless of wheather they were sold as a case or a carton
+* CAD_value – Sales price of the order
 
 
 # Coding 
@@ -64,17 +65,11 @@ The coding can be accessed [here](https://github.com/shayanafzal/DataMiners/blob
 
 ### Creation of a database
 
-A mockup database "DataMiners" was created in PG Admin as seen in the below image. The table "sales_data" was created manually using the SQL query saved in the file "Sales_Data_Schema". A single flat file was created using SQL for the purposes of this project. To respect the confidentiality of the database, a mockup ERD is prepared to explain the rationale behind the tables in the database from which the flat file was created. Multiple SQL joins were used to create a flat file named "Sales_Data_Raw" Our project is to predict future sales based on the historical data from July 2013 - June 2021.
+A mockup database "DataMiners" was created in PG Admin as seen in the image below. The table "sales_data" was created manually using the SQL query, and saved as the file, "Sales_Data_Schema". This mockup database was created using a single dataset file; therefore, an ERD was not prepared. Our project's goal is to predict future sales based on the historical data from July 2013 through June 2021.
 
 ![Image](https://github.com/shayanafzal/DataMiners/blob/main/Resources/Segment%201/DataMiners_DB.png)
 
-The ERD diagram is as follows :- 
-
-![Image](https://github.com/shayanafzal/DataMiners/blob/main/Resources/Segment%201/ERD.png)
-
-The flat file was created by joining the customers, product, sales_price_list and the invoice_lines tables.
-
-### Files used for creating databaset
+### Files used for creating database
 
 The final version of analysis will utilize pandas to deleting the unwanted columns. For segment 1 deliverable the unwanted columns have been deleted manually in excel. The final file containing only the columns necessary for this analysis can be accessed [here](https://github.com/shayanafzal/DataMiners/blob/bf6a8c03ea1d01bb2228b3789cd478d071deb9c4/Resources/Sales_Data_Raw.csv).
 
@@ -84,7 +79,7 @@ The following machine learning the models are being explored for this analysis.
 
 ### Prophet
 
-Prophet is a library that can be used to forecast time series data. This database works best with time series data that have seasonal affect and for dataset that contains several years of historical data. The raw data set being used for this analysis contains data from year 2013 to 2021, hence they stood out as a good choice. 
+Prophet is a procedure that can be used to forecast time series data. This database works best with time series data that have seasonal affect and for dataset that contains several years of historical data. The raw data set being used for this analysis contains data from year 2013 to 2021, hence they stood out as a good choice. 
 
 ### Arima
 Arima is another model that has been chosen to create a sales forecast. The results obtained will be analyzed to determine if this is a good model to use for the available data set. 
