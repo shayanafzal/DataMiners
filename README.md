@@ -16,7 +16,7 @@ The following communication tools will be used when working on this project
 
 1. A private group on Slack will be used as a primary communications protocol. 
 2. Recurring Zoom calls have been setup to collaborate and communicate
-3. Phone will be used to communicate in case there is an argent need.
+3. Phone will be used to communicate in case there is an urgent need.
 
 
 # Data
