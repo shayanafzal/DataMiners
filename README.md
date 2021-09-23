@@ -30,8 +30,8 @@ The original data set that has been obtained contains data in a number of column
 
 * Year
 * Month 
-* InvDate - Dales Invoice Number
-* InvNumbers – Invoice Numbe
+* InvDate - Sales Invoice Number
+* InvNumber – Invoice Numbe
 * Market – The sales are broken down into three different regions	
 	* CAN - Canada
 	* US – United States
@@ -64,11 +64,17 @@ The coding can be accessed [here](https://github.com/shayanafzal/DataMiners/blob
 
 ### Creation of a database
 
-A mockup database "DataMiners" was created in PG Admin as seen in the below image. The table "sales_data" was created manually using the SQL query saved in the file "Sales_Data_Schema". Since this is a mockup database to be created using a single dataset file, ERD was not prepared. Our project is to predict future sales based on the historical data from July 2013 - June 2021.
+A mockup database "DataMiners" was created in PG Admin as seen in the below image. The table "sales_data" was created manually using the SQL query saved in the file "Sales_Data_Schema". A single flat file was created using SQL for the purposes of this project. To respect the confidentiality of the database, a mockup ERD is prepared to explain the rationale behind the tables in the database from which the flat file was created. Multiple SQL joins were used to create a flat file named "Sales_Data_Raw" Our project is to predict future sales based on the historical data from July 2013 - June 2021.
 
 ![Image](https://github.com/shayanafzal/DataMiners/blob/main/Resources/Segment%201/DataMiners_DB.png)
 
-### Files used for creating database
+The ERD diagram is as follows :- 
+
+![Image](https://github.com/shayanafzal/DataMiners/blob/main/Resources/Segment%201/ERD.png)
+
+The flat file was created by joining the customers, product, sales_price_list and the invoice_lines tables.
+
+### Files used for creating databaset
 
 The final version of analysis will utilize pandas to deleting the unwanted columns. For segment 1 deliverable the unwanted columns have been deleted manually in excel. The final file containing only the columns necessary for this analysis can be accessed [here](https://github.com/shayanafzal/DataMiners/blob/bf6a8c03ea1d01bb2228b3789cd478d071deb9c4/Resources/Sales_Data_Raw.csv).
 
@@ -78,7 +84,7 @@ The following machine learning the models are being explored for this analysis.
 
 ### Prophet
 
-Prophet is a procedure that can be used to forecast time series data. This database works best with time series data that have seasonal affect and for dataset that contains several years of historical data. The raw data set being used for this analysis contains data from year 2013 to 2021, hence they stood out as a good choice. 
+Prophet is a library that can be used to forecast time series data. This database works best with time series data that have seasonal affect and for dataset that contains several years of historical data. The raw data set being used for this analysis contains data from year 2013 to 2021, hence they stood out as a good choice. 
 
 ### Arima
 Arima is another model that has been chosen to create a sales forecast. The results obtained will be analyzed to determine if this is a good model to use for the available data set. 
