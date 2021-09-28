@@ -1,0 +1,114 @@
+body {
+    background-color: #666;
+  }
+  header {
+    background-color: rgba(94, 92, 92, 0.89);
+    background-image: url("images/cards.jpg");
+    padding: 30px;
+    text-align: center;
+    font-size: 80px;
+    color: whitesmoke;
+  }
+  
+  /* Style the footer */
+  footer {
+    background-color: #777;
+    /* background-image: url("../images/card.jpg"); */
+    padding: 10px;
+    text-align: center;
+    color: white;
+  }
+  
+  .panel > .panel-heading {
+    background-image: none;
+    /* background-color: hsla(260, 5%, 12%, 0.925); */
+    color: #1f1e1e;
+  }
+  
+  h2 {
+    padding: 60px;
+    color:whitesmoke;
+  }
+  
+  img {
+    word-wrap: break-word;
+  }
+  .topnav a {
+    float: center;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  p {
+      color:whitesmoke;
+      /* background-color: rgb(153, 153, 142); */
+      padding: 18px 36px;
+    }
+  
+    p2 {
+      color:whitesmoke;
+      text-decoration: underline;
+      text-transform: capitalize;
+      text-indent: 50px;
+    }
+  
+    p1 {
+      color:whitesmoke;
+      font-style:normal;
+      font-size:20px;
+      padding-left:30px;
+    }
+    
+    article {
+      float: right;
+      padding: 30px;
+      width: 100%;
+      /* background-color: #f1f1f1; */
+      /* height: 300px; only for demonstration, should be removed */
+    }
+   
+    #myBtn {
+      display: none; /* Hidden by default */
+      position: fixed; /* Fixed/sticky position */
+      bottom: 20px; /* Place the button at the bottom of the page */
+      right: 30px; /* Place the button 30px from the right */
+      z-index: 99; /* Make sure it does not overlap */
+      border: none; /* Remove borders */
+      outline: none; /* Remove outline */
+      background-color: rgba(245, 11, 30, 0.884); /* Set a background color */
+      color: white; /* Text color */
+      cursor: pointer; /* Add a mouse pointer on hover */
+      padding: 15px; /* Some padding */
+      border-radius: 10px; /* Rounded corners */
+      font-size: 18px; /* Increase font size */
+    }
+    
+    #myBtn:hover {
+      background-color: rgb(11, 226, 29); /* Add a dark-grey background on hover */
+    }
+  
+  li{
+    color:whitesmoke;
+  }
+  .Label{
+    color:beige
+  }
+  a:link, a:visited {
+    background-color: #1f1d1d18;
+    color: white;
+    padding: 20px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a:hover, a:active {
+    background-color:rgba(116, 168, 226, 0.822);
+    text-decoration: underline;
+  }
+  .topnav a.active {
+    background-color: #9ea6beda;
+    color: whitesmoke;
+  }
