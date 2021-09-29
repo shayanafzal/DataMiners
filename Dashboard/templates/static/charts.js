@@ -11,6 +11,7 @@ function init() {
     console.log(place)
     var health = data.map(health => health.SubCategory)
     console.log(health)
+    var listOfPlaces =[]
 
     var trace = {
       x: flavour,
@@ -35,10 +36,11 @@ function init() {
       title: "Snack Bars Sales by Location",
      };
      Plotly.newPlot("plotArea", data, layout);
-    
+     
     var trace = {
       x: year,
       y: value,
+      z: flavour,
       mode: 'markers',
       type: 'scatter'
     };
@@ -61,11 +63,34 @@ function init() {
       yaxis: { title: "CAD_Value"}
     };
     Plotly.newPlot("bar-plot-health", data, layout);
-   })
+    })
   }
 
 init();
 
+function pred() {
+  pred = d3.json("predictions.json").then((pred) => {
+    console.log(pred);
+    var date = pred.map(date => (date.ds));
+    console.log(date);
+    var sales = pred.map(sales => parseInt(sales.yhat));
+    console.log(sales);
+
+// line graph of predictive model 
+    var trace = {
+      x: date,
+      y: sales,
+      type: 'line'
+    };
+     var data = [trace];
+     var layout = {
+      title: 'Predicted Snack Bars Sales by Year'
+    };
+    
+    Plotly.newPlot('myDiv_pred', data, layout);
+  });
+}
+pred();
   
 
 
