@@ -2,7 +2,7 @@
 
 [Presentation](https://docs.google.com/presentation/d/1LgEP1iabjOZd_n9z482B2Ra9EhcuanqxWKVCodDJ5jM/edit#slide=id.gebf57a60df_0_0)
 
-[Dashboard](https://shayanafzal.github.io/DataMiners/index.html)
+[Dashboard](https://shayanafzal.github.io/DataMiners/Dashboard/templates/index.html)
 
 
 ## Introduction
