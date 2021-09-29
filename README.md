@@ -2,7 +2,8 @@
 
 [Presentation](https://docs.google.com/presentation/d/1LgEP1iabjOZd_n9z482B2Ra9EhcuanqxWKVCodDJ5jM/edit#slide=id.gebf57a60df_0_0)
 
-[Dashboard Blueprint](https://docs.google.com/presentation/d/1nNB0tEEfZtC7Wzha4ysZ-Lvb9UOqLQpGOTRMRIGp7wk/edit#slide=id.gecfb9a4986_0_85)
+[Dashboard](https://shayanafzal.github.io/DataMiners/index.html)
+
 
 ## Introduction
 Accurate sales forcasting and procuring inputs to meet the sales demand, is not a new or unique problem within the business community. This project and the resulting analysis havs been conducted in response to a given business within the snack bar industry. For confidentiality purposes, the business will be referred to as ‘Snack Brands’ from here onwards. Snack Brands manufactures a varity of snack bars and has distribution throughout global makets. 
