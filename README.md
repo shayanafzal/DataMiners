@@ -60,7 +60,7 @@ The original data set contained data in a number of columns, not all of which we
 
 # Coding 
 
-The coding can be accessed [here](https://github.com/shayanafzal/DataMiners/blob/65c90f04cfc6d1c089585cc2a698855caca71611/Code.ipynb).
+The coding can be accessed [here](https://github.com/shayanafzal/DataMiners/blob/main/ML4-2021.09.27.ipynb).
 
 ## Database
 
